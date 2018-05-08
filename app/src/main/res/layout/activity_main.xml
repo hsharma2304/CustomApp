@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/image"
+        />
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#311B92"
+        android:paddingTop="110dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome" />
+    <TextView
+        android:id="@+id/hadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#311B92"
+        android:layout_below="@id/welcome"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:text="Hadi Hariri" />
+    <TextView
+        android:id="@+id/organizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/hadi"
+
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#311B92"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:padding="15dp"
+        android:text="Organizer: JetBrains"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/organizer"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#311B92"
+        android:padding="15dp"
+        android:layout_marginLeft="40dp"
+        android:text="Venue: Bangaluru, India" />
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/name"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#311B92"
+        android:layout_marginLeft="45dp"
+        android:text="Event Date: 27 April, 2018"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/venue"
+        android:textStyle="bold"
+        android:textColor="#311B92"
+        android:layout_marginLeft="45dp"
+        android:text="From"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/from"
+        android:textColor="#311B92"
+        android:layout_marginLeft="100dp"
+        android:text="Himani Sharma"
+
+        />
